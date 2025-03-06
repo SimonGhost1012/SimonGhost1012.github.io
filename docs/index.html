@@ -15,7 +15,8 @@
             font-size: 15px;
             font-weight: bold;
             border-radius: 7px;
-            text-decoration: none;
+            border: none; /* Remove the default button border */
+            cursor: pointer; /* Make it clear that the button is clickable */
             transition: background-color 0.3s ease;
             max-width: 120px; /* Set a max width to avoid stretching */
             white-space: nowrap; /* Prevent text from wrapping */
@@ -33,9 +34,9 @@
     </style>
 </head>
 <body>
-    <a href="https://toolbox-4.gitbook.io/toolbox/" class="github-button">
+    <button class="github-button" onclick="window.location.href='https://toolbox-4.gitbook.io/toolbox/'">
         <img src="https://xy.vault.inc/static/media/gitBook.bb1fc946.png" alt="GitBook Logo">
         Docs
-    </a>
+    </button>
 </body>
 </html>
